@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    
 }
 ol, ul {
 	list-style: none;
@@ -82,12 +83,13 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
 }
 
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    
 }
 
 .middle-content h2 {
@@ -143,4 +145,100 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.anchors {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 50px;
+    color: black;
+	text-decoration: none;
+    
+}
+
+.middle-content .boxes .box:nth-child(1) {
+    background-color: teal;
+}
+.middle-content .boxes .box:nth-child(2) {
+    background-color: gold;
+}
+.middle-content .boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4) {
+    background-color: coral;
+}
+.middle-content .boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+.middle-content .boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+.middle-content .boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+.middle-content .boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+}
+
+/* about  */
+
+.building {
+    padding-bottom: 15px;
+}
+
+.about {
+    padding-bottom: 10px;
+    border-bottom: dotted black 1px;
+}
+
+.about p {
+    padding-bottom: 10px;
+}
+
+.plan{
+    padding-top: 25px;
+}
+
+.containers {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.containers section h2 {
+    border: solid 2px;
+    width: 130px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.containers section {
+    border-bottom: 1px dotted black;
+    width: 45%;
+}
+
+.containers section h1 {
+    padding-top: 10px;
+}
+
+.lastpara {
+    padding-top:15px;
+}
+.lastpara h1 {
+    padding-bottom: 5px;
+}
+
+.lastpara p {
+    padding-bottom: 20px;
 }
